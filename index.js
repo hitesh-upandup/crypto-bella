@@ -26,7 +26,7 @@ index.describeIndexStats().then(stats => {
     console.log(stats)
 })
 
-const bot = new TelegramBot(process.env.TELEGRAM_KEY, {polling: fasle});
+const bot = new TelegramBot(process.env.TELEGRAM_KEY, {polling: false});
 
 const app = express();
 
